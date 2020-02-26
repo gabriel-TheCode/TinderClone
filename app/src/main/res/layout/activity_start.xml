@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.StartActivity"
+    android:background="@drawable/rect_gradient_bg"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/tinder_logo_text"
+        android:layout_marginTop="150dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="En appuyant sur Connexion, vous acceptez nos Conditions générales et notre Politique de confidentialité"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btn_facebook_connect"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="se connecter via facebook"
+            fontPath="fonts/Poppins-Medium.ttf"
+            android:textColor="@color/white"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_blue_selector"/>
+
+        <Button
+            android:id="@+id/btn_number_connect"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="identifiez vous avec votre numero de telephone"
+            fontPath="fonts/Poppins-Medium.ttf"
+            android:textColor="@color/white"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/btn_outline_bg"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Probleme de connexion ?"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Nous ne publions rien sur Facebook"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

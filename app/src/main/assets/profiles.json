@@ -1,0 +1,104 @@
+[
+  {
+    "url":"https://cdn.pixabay.com/photo/2012/02/29/15/40/beautiful-19075_960_720.jpg",
+    "name":"Sofia",
+    "age":20,
+    "location":"New York"
+  },
+  {
+    "url":"https://cdn.pixabay.com/photo/2017/12/22/14/42/girl-3033718_960_720.jpg",
+    "name":"Roma",
+    "age":22,
+    "location":"California"
+  },
+  {
+    "url":"https://cdn.pixabay.com/photo/2017/02/16/23/10/smile-2072908_960_720.jpg",
+    "name":"Zoya",
+    "age":23,
+    "location":"Atlantic City"
+  },
+  {
+    "url":"https://cdn.pixabay.com/photo/2017/02/16/23/10/smile-2072907_960_720.jpg",
+    "name":"Carol",
+    "age":19,
+    "location":"New City"
+  },
+  {
+    "url":"https://cdn.pixabay.com/photo/2016/11/29/13/14/attractive-1869761_960_720.jpg",
+    "name":"Saansa",
+    "age":20,
+    "location":"Manhattan"
+  },
+  {
+    "url":"https://cdn.pixabay.com/photo/2016/06/06/17/05/model-1439909_960_720.jpg",
+    "name":"Khaleesi",
+    "age":24,
+    "location":"Future Westros"
+  },
+  {
+    "url":"https://cdn.pixabay.com/photo/2019/06/02/17/33/portrait-4246954_960_720.jpg",
+    "name":"Heena",
+    "age":21,
+    "location":"India"
+  },
+  {
+    "url":"https://cdn.pixabay.com/photo/2019/11/06/05/57/model-4605248_960_720.jpg",
+    "name":"Jasmin",
+    "age":23,
+    "location":"Taxes"
+  },
+  {
+    "url":"https://cdn.pixabay.com/photo/2015/09/17/14/24/guitar-944262_960_720.jpg",
+    "name":"Monica",
+    "age":23,
+    "location":"New York"
+  },
+  {
+    "url":"https://cdn.pixabay.com/photo/2017/07/25/10/37/hair-2537564_960_720.jpg",
+    "name":"Phoebe",
+    "age":22,
+    "location":"New York City"
+  },
+  {
+    "url":"https://cdn.pixabay.com/photo/2017/07/25/10/36/beauty-2537562_960_720.jpg",
+    "name":"Rachel",
+    "age":22,
+    "location":"Central Perk"
+  },
+  {
+    "url":"https://cdn.pixabay.com/photo/2015/12/08/00/57/model-woman-1082219_960_720.jpg",
+    "name":"Jainis",
+    "age":24,
+    "location":"New York"
+  },
+  {
+    "url":"https://cdn.pixabay.com/photo/2015/10/12/15/10/woman-984247_960_720.jpg",
+    "name":"Samia",
+    "age":19,
+    "location":"India"
+  },
+  {
+    "url":"https://cdn.pixabay.com/photo/2016/01/19/15/23/portrait-woman-1149249_960_720.jpg",
+    "name":"Hornol",
+    "age":24,
+    "location":"Caltech"
+  },
+  {
+    "url":"https://cdn.pixabay.com/photo/2016/03/23/08/34/beautiful-1274360_960_720.jpg",
+    "name":"Korial",
+    "age":21,
+    "location":"Japan"
+  },
+  {
+    "url":"https://cdn.pixabay.com/photo/2017/06/15/22/05/girl-2406963_960_720.jpg",
+    "name":"Chin Si",
+    "age":23,
+    "location":"China"
+  },
+  {
+    "url":"https://cdn.pixabay.com/photo/2016/11/19/17/11/blond-1840386_960_720.jpg",
+    "name":"Khloe",
+    "age":21,
+    "location":"America"
+  }
+]

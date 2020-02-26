@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/image_slider"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/bolt"
+            android:layout_marginEnd="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_slider_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="Ceci est un texte aleatoire"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/md_black_1000"
+            fontPath="fonts/Poppins-Medium.ttf"/>
+    </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_slider_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ceci est un texte aléatoire"
+            android:textSize="14sp"
+            android:textColor="@color/md_black_1000"
+            android:gravity="center"
+            android:maxLines="1"
+            android:layout_marginBottom="20dp"/>
+
+
+
+
+</LinearLayout>

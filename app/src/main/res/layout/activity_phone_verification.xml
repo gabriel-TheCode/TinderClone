@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PhoneVerificationActivity">
+
+
+  <!--  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp">
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            app:ccpDialog_textColor="@color/darkBlue"
+            app:ccp_contentColor="@color/darkBlue"
+            app:ccp_showFullName="false"
+            app:ccp_showNameCode="false"
+            app:ccp_autoDetectCountry="true"
+            app:ccp_showPhoneCode="true"
+            app:ccpDialog_showTitle = "false"
+            app:ccp_textSize="16sp"
+            fontPath="fonts/Poppins-Medium.ttf"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone number"
+            fontPath="fonts/Poppins-Medium.ttf"
+            android:inputType="phone"
+            android:textSize="16sp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/darkBlue"
+            android:layout_toEndOf="@id/ccPicker"
+            android:background="@android:color/transparent"/>
+
+
+    </RelativeLayout> -->
+
+
+</LinearLayout>

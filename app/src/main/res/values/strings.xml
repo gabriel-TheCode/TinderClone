@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Tinder Clone</string>
+
+    <string name="title_slider_1">PASSEZ A TINDER GOLD</string>
+    <string name="description_slider_1">Decouvrez qui vous a envoyé des Likes et encore plus</string>
+
+    <string name="title_slider_2">Obtenez plus de matchs rapidement</string>
+    <string name="description_slider_2">Boostez votre profil une fois par mois</string>
+
+    <string name="title_slider_3">Swipez dans le monde entier</string>
+    <string name="description_slider_3">Avec Tinder Plus, obtenez un passeport pour matcher dans le monde entier</string>
+
+    <string name="title_slider_4">Demarquez vous avec des Super Likes</string>
+    <string name="description_slider_4">Multipliez vos chances de Matchs par 3</string>
+
+    <string name="title_slider_5">Je voulais swiper vers la droite</string>
+    <string name="description_slider_5">Profitez du nombre illimites de Retour en arriere avec Tinder Plus</string>
+
+    <string name="title_slider_6">Augmentez vos chances de Matchs</string>
+    <string name="description_slider_6">Profitez du nombre illimites de Likes avec Tinder Plus</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

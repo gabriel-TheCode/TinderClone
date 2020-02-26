@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thecode.tinderclone.widgets.BounceScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/white"
+        tools:context=".fragments.ChatFragment">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/img_search"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_search_pink_24dp"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edit_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Rechercher un Match"
+                android:padding="10dp"
+                android:inputType="phone"
+                android:textSize="18sp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/text_input_line_selector"
+                android:layout_toEndOf="@id/img_search"/>
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nouveaux Matchs"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            android:textColor="@color/colorPrimary"/>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_likes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Messages"
+                android:layout_marginEnd="5dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/layout_count_message"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/dot_message">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/text_count_messsage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="2"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_messages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff" />
+
+
+    </LinearLayout>
+
+</com.thecode.tinderclone.widgets.BounceScrollView>

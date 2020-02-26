@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/account_circle"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/fire"
+        android:icon="@drawable/fire"
+        android:title="Matchs" />
+
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/chat_processing"
+        android:title="Chat" />
+
+</menu>

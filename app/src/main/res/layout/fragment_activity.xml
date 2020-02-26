@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ActivityFragment">
+
+
+    <LinearLayout
+        android:id="@+id/layout_navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/layout_chat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/text_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Messages"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginEnd="5dp"/>
+
+
+            <RelativeLayout
+                android:id="@+id/layout_count_message"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:padding="2dp"
+                android:background="@drawable/dot_message"
+                android:layout_marginBottom="7dp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:background="@color/md_grey_300"
+            android:layout_height="30dp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/layout_feed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/text_feed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fil d'actualité"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/light_gray"
+                android:layout_marginEnd="5dp"/>
+
+            <RelativeLayout
+                android:id="@+id/layout_count_feed"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:padding="2dp"
+                android:background="@drawable/dot_message"
+                android:layout_marginBottom="7dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_navbar"
+        android:layout_width="match_parent"
+        android:background="@color/md_grey_200"
+        android:layout_height="1dp"
+        android:layout_below="@id/layout_navigation_bar"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/line_navbar"
+        android:background="@color/white"/>
+
+</RelativeLayout>

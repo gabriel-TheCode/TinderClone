@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="560dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_profile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/user_woman_3"
+            app:civ_border_width="0dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@id/img_profile"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Veronique"
+                android:textColor="@color/md_grey_800"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_toEndOf="@id/img_profile"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nouveau Match !"
+                android:textColor="@color/md_grey_400"
+                android:textSize="14sp"
+                android:layout_toEndOf="@id/img_profile"
+                android:layout_below="@id/text_name"/>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dots_horizontal"
+            android:tint="@color/md_grey_400"
+            android:textSize="10sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentEnd="true"/>
+
+        <RelativeLayout
+            android:id="@+id/layout_image_container"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@id/img_profile">
+
+            <ImageView
+                android:id="@+id/img_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/user_woman_3"
+                android:scaleType="centerCrop"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="50dp"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/tinder_logo_text"/>
+
+        </RelativeLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp"
+            android:layout_alignParentEnd="true">
+
+
+            <ImageView
+                android:id="@+id/img_like"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:src="@drawable/ic_like_24dp"
+                android:tint="@color/white"
+                android:padding="10dp"
+                android:background="@drawable/circle_green_background"
+                android:layout_marginEnd="20dp"/>
+
+
+
+            <ImageView
+                android:id="@+id/img_chat"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:src="@drawable/chat_processing"
+                android:padding="10dp"
+                android:background="@drawable/circle_blue_background"
+                android:layout_marginEnd="20dp"/>
+        </LinearLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@id/layout_image_container">
+
+            <ImageView
+                android:id="@+id/img_location"
+                android:src="@drawable/ic_location_on_blue_24dp"
+                android:tint="#C0C0C0"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="5dp"/>
+
+            <TextView
+                android:id="@+id/text_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="à 8 km"
+                android:textSize="16sp"
+                android:layout_toEndOf="@id/img_location"
+                android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:id="@+id/text_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7 dec. 2019"
+                android:textColor="@color/md_grey_400"
+                android:textSize="12sp"
+                android:layout_below="@id/text_location"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
