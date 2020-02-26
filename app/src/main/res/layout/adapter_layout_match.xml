@@ -77,7 +77,7 @@
                 android:layout_height="100dp"
                 android:layout_marginBottom="50dp"
                 android:layout_alignParentBottom="true"
-                android:src="@drawable/tinder_logo_text"/>
+                android:src="@drawable/img_match"/>
 
         </RelativeLayout>
 
